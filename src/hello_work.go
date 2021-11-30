@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import ("fmt")
 
 func main() {
-	fmt.Println("Hello World !!!")
+	n, eR := fmt.Println("Hello World !!!")
+	fmt.Printf("Number of characters printed are : %d, %d, %d", n, eR);
 }
